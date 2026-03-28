@@ -30,6 +30,9 @@ try:
         model=model,
         prompt=prompt,
     )
+    #write it in output file
+    with open(output_path, 'w') as f:
+        f.write(response['response'])
 except Exception as e:
     print(f'Error: {e}')
     exit(1)
