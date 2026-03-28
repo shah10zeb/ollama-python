@@ -1,0 +1,9 @@
+apples
+bananas
+milk
+bread
+cheese
+eggs
+chicken
+spinach
+carrots
